@@ -1,5 +1,8 @@
 # ContactsApp
 
+Architechture - MVVM
+Language - Kotlin
+
 <table>
   <tr>
     <td>Contact List Screen</td>
