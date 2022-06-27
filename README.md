@@ -9,10 +9,10 @@
     <td>Contact details Hindi</td>
   </tr>
   <tr>
-    <td><img src="screenshots/list.png" width=320 height=400></td>
-    <td><img src="screenshots/menu.png" width=320 height=400></td>
-    <td><img src="screenshots/menu_hi.png" width=320 height=400></td>
-    <td><img src="screenshots/details.png" width=320 height=400></td>
-    <td><img src="screenshots/details_hi.png" width=320 height=400></td>
+    <td><img src="screenshots/list.png" width=340 height=400></td>
+    <td><img src="screenshots/menu.png" width=340 height=400></td>
+    <td><img src="screenshots/menu_hi.png" width=340 height=400></td>
+    <td><img src="screenshots/details.png" width=340 height=400></td>
+    <td><img src="screenshots/details_hi.png" width=340 height=400></td>
   </tr>
  </table>
