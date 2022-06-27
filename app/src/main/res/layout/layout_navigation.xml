@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_holder"
+        android:background="@color/bg_blue_color_darker"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:id="@+id/tv_sort_by"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50dp"
+        android:gravity="center_vertical"
+        android:text="@string/str_sort_by"
+        android:textSize="@dimen/dimen_16sp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_holder"
+        app:layout_constraintVertical_bias="0.022" />
+
+
+    <RadioGroup
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:id="@+id/rd_group_sort_by"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sort_by">
+
+        <RadioButton
+            android:id="@+id/radio_first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:fontFamily="@font/nunito_regular"
+            android:text="@string/str_first_name" />
+
+        <RadioButton
+            android:fontFamily="@font/nunito_regular"
+            android:id="@+id/radio_last_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_last_name" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:id="@+id/tv_language"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/str_language"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="@dimen/dimen_16sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rd_group_sort_by" />
+
+    <RadioGroup
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:id="@+id/rd_group_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_language"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/radio_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_regular"
+            android:text="@string/str_english" />
+
+        <RadioButton
+            android:fontFamily="@font/nunito_regular"
+            android:id="@+id/radio_hindi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_hindi" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

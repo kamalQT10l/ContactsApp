@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ContactsApp</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="str_language">Language</string>
+    <string name="str_sort_by">SortBy</string>
+    <string name="str_first_name">First Name</string>
+    <string name="str_last_name">Last Name</string>
+    <string name="str_english">English</string>
+    <string name="str_hindi">Hindi</string>
+
+
+    <string name="str_mobile_no">Mobile Number</string>
+    <string name="str_email_id">Email Id</string>
+    <string name="str_not_available">Not Available</string>
+    <string name="delete_msg">Item Deleted Successfully</string>
+    <string name="str_no_contacts_available">No contacts available</string>
+</resources>

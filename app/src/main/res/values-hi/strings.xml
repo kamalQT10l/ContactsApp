@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ContactsApp</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="str_language">भाषा</string>
+    <string name="str_sort_by">क्रम से लगाना</string>
+    <string name="str_first_name">पहला नाम</string>
+    <string name="str_last_name">उपनाम</string>
+    <string name="str_english">English</string>
+    <string name="str_hindi">Hindi</string>
+
+
+    <string name="str_mobile_no">मोबाइल नंबर</string>
+    <string name="str_email_id">ईमेल आईडी</string>
+    <string name="str_not_available">उपलब्ध नहीं है</string>
+    <string name="delete_msg">आइटम सफलतापूर्वक हटा दिया गया</string>
+    <string name="str_no_contacts_available">कोई संपर्क उपलब्ध नहीं</string>
+
+</resources>

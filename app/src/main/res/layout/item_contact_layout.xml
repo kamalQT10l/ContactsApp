@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.contacts.app.utils.SwipeRevealLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:mode="same_level"
+    app:dragEdge="right"
+    android:id="@+id/sw_ll"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="@dimen/dimen_100dp"
+        android:layout_height="match_parent" >
+        <ImageView
+            android:id="@+id/iv_delete_item"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:layout_height="@dimen/dimen_50dp"/>
+    </FrameLayout>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:padding="@dimen/dimen_16dp"
+    android:id="@+id/cl_item_root"
+    android:visibility="visible"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/dimen_16dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:text="Kamal"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="@dimen/dimen_16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:text="9789346418"
+        android:id="@+id/tv_number"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_semi_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <View
+        android:background="@color/black"
+        android:id="@+id/view"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:alpha="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_number" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</com.contacts.app.utils.SwipeRevealLayout>
